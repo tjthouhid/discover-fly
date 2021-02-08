@@ -53,6 +53,7 @@ function handleTicketChange(count, value, isFirstClass, isIncrease) {
   let ticketCount = parseFloat(document.getElementById(count).value);
   const subtotal = parseFloat(document.getElementById(value).innerText);
 
+
   if (isNaN(ticketCount) || ticketCount == "") {
     ticketCount = 0;
   }
